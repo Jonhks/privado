@@ -52,3 +52,12 @@
 .t-area{
   color: white
 }
+
+.modal-style{
+  width: 100%;
+  height: 60vh;
+}
+iframe{
+  margin-left: -7%;
+
+}

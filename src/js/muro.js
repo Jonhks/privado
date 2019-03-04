@@ -3,7 +3,26 @@ const arrstart = ['dragon', 'ella', 'amigos', 'rescate', 'guerra', 'adios', 'dia
 const search = document.getElementById('icon_prefix2')
 const moviesSearch = document.getElementById('movies-search')
 const cards = document.getElementsByClassName('cards')
+const toModal = document.getElementById('to-modal')
+const random = document.getElementById('random') 
 
+
+// const runModal = (mymovie) =>{
+//   let modal = `
+//   <div id="modal1" class="modal">
+//   <div class="modal-content">
+//   <h4>Modal Header</h4>
+//   <p>A bunch of text</p>
+//   </div>
+//   <div class="modal-footer">
+//   <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+//   </div>
+//   </div>
+//   `
+//   console.log(toModal)
+//   toModal.innerHTML= modal
+// }
+// runModal()
 
 const printModal = (data, selected) => {
   const filtered = data.filter(element => element.Title === selected)
@@ -15,13 +34,15 @@ const printModal = (data, selected) => {
 
 
 const printCarr = (arrMovies) => {
+  carrusel.innerHTML = ''
+
+  console.log('reiicio')
   for (let i = 0; i < 15; i++) {
     if (arrMovies[i].Poster !== 'N/A') {
       let template = `
     <a  class="carousel-item card" href="#one!">
    <p class="modal-trigger" href="#modal1"><i  id="${arrMovies[i].Title}" class="material-icons cards">add</i></p>
         <img src="${arrMovies[i].Poster}"></a>
-
     `
       carrusel.insertAdjacentHTML('beforeend', template)
     }
@@ -53,6 +74,9 @@ const fetchData = () => {
         }
       })
   })
+  // random.addEventListener('click', () =>{
+  //   printCarr(arrMovies)
+  // })
   return arrMovies
 }
 fetchData()
@@ -60,7 +84,6 @@ fetchData()
 
 
 var shuffle = function (array) {
-
   var currentIndex = array.length;
   var temporaryValue, randomIndex;
 
@@ -77,6 +100,7 @@ var shuffle = function (array) {
   }
   printCarr(array)
 
+ 
   return array;
 
 };
