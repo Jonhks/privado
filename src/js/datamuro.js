@@ -9,3 +9,4 @@ $(document).ready(function(){
 });
 const user = JSON.parse(localStorage.getItem('user'))
 
+$('.modal').modal();
