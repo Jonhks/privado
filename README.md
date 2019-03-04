@@ -72,7 +72,19 @@ Nuestro mayor interés radicó en validar los features que pensamos que les apor
 
 
 - [prototipos BF](./src/ux/prototipos1)
+  - ![uno](./src/ux/prototipos1/Prototipo01.pdf)
+  - ![uno](./src/ux/prototipos1/prototipo2.png)
+
 - [prototipos AF](./src/ux/prototipos2)
+  - ![uno](./src/ux/prototipos2/prototipo2.1.png)
+  - ![uno](./src/ux/prototipos2/prototipo2.2.png)
+  - ![uno](./src/ux/prototipos2/prototipo2.3.png)
+  - ![uno](./src/ux/prototipos2/prototipo2.4.png)
+  - ![uno](./src/ux/prototipos2/prototipo2.5.png)
+
+
+
+
 
 - [prototipos balsami1](https://balsamiq.cloud/sobbfsz/phcdr4y/r4822
 )
