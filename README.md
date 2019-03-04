@@ -51,7 +51,7 @@ Sin embargo, estamos conscientes de que pronto estallará una guerra de platafor
 
 ### Planning
 
-![Planning](src/ux/plannig.jpg)
+![Planning](./src/ux/planning.jpg)
 
 - Planteamos una serie de problemáticas con soluciones hipotéticas.
 Definimos las funcionalidades básicas que debería tener nuestro producto (log in, form de inicio, home, etc.)
